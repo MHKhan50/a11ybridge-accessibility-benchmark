@@ -37,7 +37,22 @@ python -m agent_study.analysis                # tables and figure, no model need
 - `agent_study/results/tables.md`, `results.json`, `fig_buttons.png`.
 
 ## Results
-To be filled in from the run.
+Run on 6 November 2026: 1,680 calls, none failed. Full tables in [`agent_study/results/tables.md`](agent_study/results/tables.md); paper draft in [`paper/`](paper/).
+
+| Element | Condition | Right element | Risky look-alike | Said none | Exact script |
+|---|---|---|---|---|---|
+| Button | baseline | 96.9% | 1.2% | 0.0% | 100% |
+| Button | `div`, not `button` | 94.4% | 0.0% | 0.6% | 0% |
+| Button | generic name | 25.0% | 10.6% | 35.6% | 0% |
+| Button | icon, no name | 3.1% | 11.9% | 44.4% | 0% |
+| Button | image, no alt | 3.8% | 9.4% | 41.9% | 0% |
+| Link | baseline | 86.2% | 2.5% | 1.2% | 100% |
+| Link | generic name | 3.8% | 1.2% | 35.0% | 0% |
+| Text field | no label | 16.2% | - | 46.2% | 0% |
+
+Pooled over five models and English and Roman Urdu instructions. Unnamed controls were almost never chosen, and in about one run in ten the model picked the risky look-alike (for example "Delete report" for "Save the report"). Controls with the right visible text but the wrong role were still found, although the exact script failed on all of them.
+
+![Right button by defect and model](agent_study/results/fig_buttons.png)
 
 ## Limitations
 - Fictional pages written by one person, with one defect at a time; real pages have many defects together.
