@@ -1,0 +1,27 @@
+{
+  "benchmark": "A11yBridge",
+  "version": "0.2.0",
+  "repetitions": 5,
+  "tasks": [
+    "button_name",
+    "link_name",
+    "textbox_name"
+  ],
+  "variants": [
+    "baseline",
+    "defect"
+  ],
+  "headless": true,
+  "browser_engine": "Chromium",
+  "browser_version": "148.0.7778.96",
+  "playwright_version": "1.60.0",
+  "python_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "fixture_source": "package-local HTML files; no network access",
+  "timing_definitions": {
+    "navigation_duration_ms": "Time spent navigating to the local fixture",
+    "locator_lookup_duration_ms": "Time spent locating and counting the expected role/name match",
+    "action_completion_duration_ms": "Time spent performing the action and waiting for its completion marker",
+    "total_duration_ms": "Elapsed time from before fixture resolution/navigation through task completion or failure; excludes browser launch and page cleanup"
+  }
+}

@@ -1,0 +1,31 @@
+run_id,task_id,variant,role,expected_name,locator_count,success,exception_type,exception_message,navigation_duration_ms,locator_lookup_duration_ms,action_completion_duration_ms,total_duration_ms,cleanup_exception_type,cleanup_exception_message,python_version,platform
+9059c621-f99b-42a8-b8e8-258d9ab86596,button_name,baseline,button,Save report,1,True,,,11.765,23.071,45.772,80.661,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+f2113dfd-d853-453c-84b9-9c262f35b718,button_name,defect,button,Save report,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,2.87,8.13,,11.022,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+30282518-961e-4f1d-ba97-5754ca3b5565,link_name,baseline,link,Download results,1,True,,,2.98,8.09,28.307,39.395,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+0ff745f4-c609-4813-bbd1-a1f700d5251e,link_name,defect,link,Download results,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,3.023,7.905,,10.955,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+47100a61-b6a5-464f-947d-4d69eb4fcdba,textbox_name,baseline,textbox,Project title,1,True,,,5.741,9.466,8.738,23.967,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+f7745f7d-208b-462a-93cf-0018eb36df5e,textbox_name,defect,textbox,Project title,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,5.153,7.594,,12.769,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+81eb9e0d-3fa3-4c13-a574-0660c67950e7,button_name,baseline,button,Save report,1,True,,,2.684,8.097,27.915,38.718,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+eb044a6d-6ae3-4f59-853c-94162bf240ae,button_name,defect,button,Save report,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,2.641,8.316,,10.983,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+a4c53691-800c-4c1d-96a3-4e16798372b2,link_name,baseline,link,Download results,1,True,,,2.799,7.956,31.821,42.596,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+9ef6a163-881d-4c17-a5bd-d2cf355d1bf3,link_name,defect,link,Download results,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,2.785,9.923,,12.732,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+763f9c97-5d7e-4aea-9f1e-55419da34b12,textbox_name,baseline,textbox,Project title,1,True,,,5.049,7.736,5.04,17.844,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+c80c8105-1927-4800-98ff-16aa36c975c1,textbox_name,defect,textbox,Project title,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,4.929,7.877,,12.829,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+8a678cc9-9235-4695-8187-e116b11c08d9,button_name,baseline,button,Save report,1,True,,,2.769,8.469,33.165,44.438,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+e80929aa-c811-4081-80d0-a1d7beac2919,button_name,defect,button,Save report,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,2.637,8.369,,11.028,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+78cd3907-0521-4512-ad11-b098904dc6e9,link_name,baseline,link,Download results,1,True,,,2.608,7.793,33.038,43.459,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+b2ac99c8-6d77-40a2-a910-1ca6cc684a33,link_name,defect,link,Download results,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,2.633,7.649,,10.305,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+fc716bb8-a8e0-4c59-8e3e-0a515c45726e,textbox_name,baseline,textbox,Project title,1,True,,,5.738,11.731,5.096,22.589,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+f506c838-aa07-41ff-854a-948b52c5962d,textbox_name,defect,textbox,Project title,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,4.723,7.893,,12.639,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+d27d6a80-910a-480d-a79b-e817f9436bfc,button_name,baseline,button,Save report,1,True,,,2.665,7.895,39.278,49.86,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+1089a171-aaf3-42b3-9e73-af855a699176,button_name,defect,button,Save report,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,2.728,8.302,,11.054,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+795d2003-6a74-4907-895e-3dadba81459e,link_name,baseline,link,Download results,1,True,,,2.725,7.897,30.208,40.851,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+18a315ca-00b6-4c63-b419-b8743d2fcc68,link_name,defect,link,Download results,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,2.561,7.676,,10.259,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+9e8d1d1d-8bd5-40da-903f-5c3d09c272b7,textbox_name,baseline,textbox,Project title,1,True,,,4.736,7.914,4.279,16.949,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+793d1621-3f20-46bb-8f16-b1180fd4bc1c,textbox_name,defect,textbox,Project title,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,4.746,7.411,,12.177,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+1a5d03ca-ca46-4181-bba5-103369d2c4f8,button_name,baseline,button,Save report,1,True,,,2.558,8.055,27.458,38.095,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+3c73c9b1-1fcb-410c-89ce-6747356db32f,button_name,defect,button,Save report,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,2.621,8.055,,10.698,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+ab893293-54d4-44c7-b7c0-096a7b9eb6b2,link_name,baseline,link,Download results,1,True,,,2.599,7.577,37.51,47.708,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+3f29d762-7319-47c3-8376-572631315376,link_name,defect,link,Download results,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,2.643,7.709,,10.376,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+2ccde1dd-cb23-4ebc-8e2a-1f5d4522ccb4,textbox_name,baseline,textbox,Project title,1,True,,,4.686,7.715,4.413,16.833,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
+6463c52a-15b5-48bb-b064-7e872988e947,textbox_name,defect,textbox,Project title,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,4.726,7.301,,12.048,,,3.9.6,macOS-27.0.1-arm64-arm-64bit
