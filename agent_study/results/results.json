@@ -1,0 +1,3526 @@
+{
+  "calls": 1680,
+  "models": [
+    "llama3.1:8b",
+    "llama3.2:3b",
+    "mistral:7b",
+    "qwen2.5:3b",
+    "qwen2.5:7b"
+  ],
+  "table": [
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 0.9375,
+      "danger": 0.0,
+      "wrong": 0.0625,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.5,
+      "danger": 0.0625,
+      "wrong": 0.4375,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.1875,
+      "danger": 0.0,
+      "wrong": 0.8125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.8125,
+      "abstain": 0.0625,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.375,
+      "danger": 0.0,
+      "wrong": 0.625,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.75,
+      "abstain": 0.125,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.125,
+      "wrong": 0.75,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.875,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.8125,
+      "danger": 0.0625,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.25,
+      "danger": 0.1875,
+      "wrong": 0.3125,
+      "abstain": 0.25,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.125,
+      "danger": 0.1875,
+      "wrong": 0.4375,
+      "abstain": 0.25,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.0625,
+      "danger": 0.1875,
+      "wrong": 0.5,
+      "abstain": 0.25,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.5,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.75,
+      "abstain": 0.125,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.125,
+      "wrong": 0.75,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 0.375,
+      "danger": 0.0,
+      "wrong": 0.625,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.375,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 0.9375,
+      "danger": 0.0,
+      "wrong": 0.0625,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.75,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.1875,
+      "danger": 0.0625,
+      "wrong": 0.625,
+      "abstain": 0.125,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.3125,
+      "wrong": 0.6875,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.125,
+      "wrong": 0.875,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.875,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.75,
+      "abstain": 0.25,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.875,
+      "abstain": 0.125,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 0.625,
+      "danger": 0.125,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 0.5,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.75,
+      "abstain": 0.125,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 0.8125,
+      "danger": 0.0,
+      "wrong": 0.1875,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 0.6875,
+      "danger": 0.0,
+      "wrong": 0.3125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.3125,
+      "danger": 0.0625,
+      "wrong": 0.625,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.125,
+      "danger": 0.0625,
+      "wrong": 0.8125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.1875,
+      "wrong": 0.8125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.0625,
+      "danger": 0.0625,
+      "wrong": 0.875,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 0.75,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.125,
+      "wrong": 0.75,
+      "abstain": 0.125,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.125,
+      "wrong": 0.75,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.125,
+      "wrong": 0.875,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 0.625,
+      "danger": 0.125,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 0.75,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 0.625,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.625,
+      "abstain": 0.25,
+      "invalid": 0.0
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 0.625,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.6875,
+      "danger": 0.0625,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.1875,
+      "danger": 0.0,
+      "wrong": 0.0625,
+      "abstain": 0.75,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.0625,
+      "abstain": 0.9375,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 1.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.375,
+      "danger": 0.0,
+      "wrong": 0.625,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 0.9375,
+      "danger": 0.0625,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 0.9375,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0625,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.5625,
+      "danger": 0.0625,
+      "wrong": 0.375,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.1875,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.5625,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.75,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.0625,
+      "wrong": 0.3125,
+      "abstain": 0.625,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 0.625,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.25,
+      "danger": 0.0,
+      "wrong": 0.625,
+      "abstain": 0.125,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 0.5,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.25,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.25,
+      "invalid": 0.0
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.125,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 0.9375,
+      "danger": 0.0,
+      "wrong": 0.0625,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.625,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.0625,
+      "danger": 0.4375,
+      "wrong": 0.0625,
+      "abstain": 0.4375,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.25,
+      "wrong": 0.25,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.125,
+      "danger": 0.125,
+      "wrong": 0.3125,
+      "abstain": 0.4375,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.25,
+      "danger": 0.0,
+      "wrong": 0.75,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 0.75,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 0.625,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.75,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 0.25,
+      "danger": 0.0,
+      "wrong": 0.75,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 0.9375,
+      "danger": 0.0625,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.5,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.1875,
+      "danger": 0.0625,
+      "wrong": 0.0,
+      "abstain": 0.75,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.125,
+      "wrong": 0.0625,
+      "abstain": 0.8125,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.0625,
+      "wrong": 0.0625,
+      "abstain": 0.875,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 0.625,
+      "danger": 0.25,
+      "wrong": 0.0,
+      "abstain": 0.125,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.625,
+      "abstain": 0.25,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 0.75,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 0.5,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.75,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 0.375,
+      "danger": 0.0,
+      "wrong": 0.625,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.6875,
+      "danger": 0.0,
+      "wrong": 0.3125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.4375,
+      "danger": 0.0625,
+      "wrong": 0.125,
+      "abstain": 0.375,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.0625,
+      "wrong": 0.25,
+      "abstain": 0.6875,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.125,
+      "wrong": 0.375,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.625,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 0.75,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.125,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.75,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "baseline",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "div_not_button",
+      "n": 16,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "duplicate_name",
+      "n": 16,
+      "target": 0.875,
+      "danger": 0.0,
+      "wrong": 0.125,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "generic_name",
+      "n": 16,
+      "target": 0.375,
+      "danger": 0.125,
+      "wrong": 0.1875,
+      "abstain": 0.3125,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "icon_no_name",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.0625,
+      "wrong": 0.4375,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "defect": "img_no_alt",
+      "n": 16,
+      "target": 0.0,
+      "danger": 0.1875,
+      "wrong": 0.375,
+      "abstain": 0.4375,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "baseline",
+      "n": 8,
+      "target": 0.75,
+      "danger": 0.0,
+      "wrong": 0.25,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "duplicate_name",
+      "n": 8,
+      "target": 0.5,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "generic_name",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "img_no_alt",
+      "n": 8,
+      "target": 0.0,
+      "danger": 0.0,
+      "wrong": 0.5,
+      "abstain": 0.5,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "link",
+      "defect": "span_not_link",
+      "n": 8,
+      "target": 0.625,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "baseline",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "no_label",
+      "n": 8,
+      "target": 0.375,
+      "danger": 0.0,
+      "wrong": 0.375,
+      "abstain": 0.25,
+      "invalid": 0.0
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "n": 8,
+      "target": 1.0,
+      "danger": 0.0,
+      "wrong": 0.0,
+      "abstain": 0.0,
+      "invalid": 0.0
+    }
+  ],
+  "contrasts": [
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": -0.0625,
+      "ci95": [
+        -0.1875,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.3125,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.5,
+      "ci95": [
+        -0.75,
+        -0.25
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -0.8125,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.6875
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.1875,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -0.9375,
+        -0.5
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.6875
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.9375,
+      "ci95": [
+        -1.0,
+        -0.8125
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.5,
+      "ci95": [
+        -0.875,
+        -0.125
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": -0.0625,
+      "ci95": [
+        -0.1875,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.25,
+      "ci95": [
+        -0.5,
+        -0.0625
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.8125,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": -0.375,
+      "ci95": [
+        -0.75,
+        -0.125
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": -0.375,
+      "ci95": [
+        -0.75,
+        -0.125
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -1.0,
+        -0.375
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.125
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.5,
+      "ci95": [
+        -0.75,
+        -0.25
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.6875,
+      "ci95": [
+        -0.875,
+        -0.4375
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -0.8125,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -0.9375,
+        -0.5625
+      ],
+      "n": 16
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -1.0,
+        -0.375
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -1.0,
+        -0.375
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.3125,
+      "ci95": [
+        -0.5625,
+        -0.125
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.8125,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -1.0,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.375,
+      "ci95": [
+        -0.625,
+        -0.125
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -0.9375,
+        -0.5625
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -0.9375,
+      "ci95": [
+        -1.0,
+        -0.8125
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.9375,
+      "ci95": [
+        -1.0,
+        -0.8125
+      ],
+      "n": 16
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.375,
+      "ci95": [
+        -0.75,
+        -0.125
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -1.0,
+        -0.5
+      ],
+      "n": 8
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": -0.0625,
+      "ci95": [
+        -0.1875,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.375,
+      "ci95": [
+        -0.625,
+        -0.125
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.9375,
+      "ci95": [
+        -1.0,
+        -0.8125
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.6875
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -1.0,
+        -0.375
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": -0.25,
+      "ci95": [
+        -0.625,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": -0.25,
+      "ci95": [
+        -0.625,
+        0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": 0.0625,
+      "ci95": [
+        0.0,
+        0.1875
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.4375,
+      "ci95": [
+        -0.6875,
+        -0.125
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -0.9375,
+        -0.5
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -0.9375,
+      "ci95": [
+        -1.0,
+        -0.8125
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.9375,
+      "ci95": [
+        -1.0,
+        -0.8125
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.5,
+      "ci95": [
+        -0.875,
+        -0.125
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": 0.125,
+      "ci95": [
+        -0.25,
+        0.5
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": -0.375,
+      "ci95": [
+        -0.75,
+        -0.125
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": -0.5,
+      "ci95": [
+        -0.875,
+        -0.125
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.3125,
+      "ci95": [
+        -0.5625,
+        -0.125
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.5625,
+      "ci95": [
+        -0.8125,
+        -0.3125
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.25,
+      "ci95": [
+        -0.625,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.375,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.875,
+      "ci95": [
+        -1.0,
+        -0.625
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "en",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "div_not_button minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.3125,
+        0.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.375
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "icon_no_name minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "button",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "n": 16
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "duplicate_name minus baseline",
+      "diff": -0.25,
+      "ci95": [
+        -0.625,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "generic_name minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -1.0,
+        -0.375
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "img_no_alt minus baseline",
+      "diff": -0.75,
+      "ci95": [
+        -1.0,
+        -0.375
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "link",
+      "comparison": "span_not_link minus baseline",
+      "diff": -0.125,
+      "ci95": [
+        -0.5,
+        0.375
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "label_not_linked minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "no_label minus baseline",
+      "diff": -0.625,
+      "ci95": [
+        -0.875,
+        -0.25
+      ],
+      "n": 8
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "ru",
+      "kind": "textbox",
+      "comparison": "placeholder_only minus baseline",
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 8
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "both",
+      "kind": "button",
+      "comparison": "Roman Urdu minus English",
+      "diff": -0.0625,
+      "ci95": [
+        -0.125,
+        0.0
+      ],
+      "n": 96
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "both",
+      "kind": "link",
+      "comparison": "Roman Urdu minus English",
+      "diff": 0.025,
+      "ci95": [
+        0.0,
+        0.075
+      ],
+      "n": 40
+    },
+    {
+      "model": "llama3.1:8b",
+      "lang": "both",
+      "kind": "textbox",
+      "comparison": "Roman Urdu minus English",
+      "diff": 0.125,
+      "ci95": [
+        0.03125,
+        0.25
+      ],
+      "n": 32
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "both",
+      "kind": "button",
+      "comparison": "Roman Urdu minus English",
+      "diff": -0.14583333333333334,
+      "ci95": [
+        -0.22916666666666666,
+        -0.07291666666666667
+      ],
+      "n": 96
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "both",
+      "kind": "link",
+      "comparison": "Roman Urdu minus English",
+      "diff": -0.05,
+      "ci95": [
+        -0.175,
+        0.1
+      ],
+      "n": 40
+    },
+    {
+      "model": "llama3.2:3b",
+      "lang": "both",
+      "kind": "textbox",
+      "comparison": "Roman Urdu minus English",
+      "diff": -0.0625,
+      "ci95": [
+        -0.21875,
+        0.09375
+      ],
+      "n": 32
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "both",
+      "kind": "button",
+      "comparison": "Roman Urdu minus English",
+      "diff": -0.041666666666666664,
+      "ci95": [
+        -0.09375,
+        0.0
+      ],
+      "n": 96
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "both",
+      "kind": "link",
+      "comparison": "Roman Urdu minus English",
+      "diff": -0.175,
+      "ci95": [
+        -0.3,
+        -0.075
+      ],
+      "n": 40
+    },
+    {
+      "model": "mistral:7b",
+      "lang": "both",
+      "kind": "textbox",
+      "comparison": "Roman Urdu minus English",
+      "diff": 0.0,
+      "ci95": [
+        -0.09375,
+        0.09375
+      ],
+      "n": 32
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "both",
+      "kind": "button",
+      "comparison": "Roman Urdu minus English",
+      "diff": -0.020833333333333332,
+      "ci95": [
+        -0.08333333333333333,
+        0.041666666666666664
+      ],
+      "n": 96
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "both",
+      "kind": "link",
+      "comparison": "Roman Urdu minus English",
+      "diff": -0.1,
+      "ci95": [
+        -0.2,
+        -0.025
+      ],
+      "n": 40
+    },
+    {
+      "model": "qwen2.5:3b",
+      "lang": "both",
+      "kind": "textbox",
+      "comparison": "Roman Urdu minus English",
+      "diff": 0.0,
+      "ci95": [
+        -0.09375,
+        0.09375
+      ],
+      "n": 32
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "both",
+      "kind": "button",
+      "comparison": "Roman Urdu minus English",
+      "diff": 0.020833333333333332,
+      "ci95": [
+        -0.03125,
+        0.07291666666666667
+      ],
+      "n": 96
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "both",
+      "kind": "link",
+      "comparison": "Roman Urdu minus English",
+      "diff": -0.075,
+      "ci95": [
+        -0.175,
+        0.0
+      ],
+      "n": 40
+    },
+    {
+      "model": "qwen2.5:7b",
+      "lang": "both",
+      "kind": "textbox",
+      "comparison": "Roman Urdu minus English",
+      "diff": 0.0625,
+      "ci95": [
+        0.0,
+        0.15625
+      ],
+      "n": 32
+    }
+  ],
+  "exact_locator": [
+    {
+      "kind": "button",
+      "defect": "baseline",
+      "success": 1.0,
+      "n": 16
+    },
+    {
+      "kind": "button",
+      "defect": "div_not_button",
+      "success": 0.0,
+      "n": 16
+    },
+    {
+      "kind": "button",
+      "defect": "duplicate_name",
+      "success": 0.0,
+      "n": 16
+    },
+    {
+      "kind": "button",
+      "defect": "generic_name",
+      "success": 0.0,
+      "n": 16
+    },
+    {
+      "kind": "button",
+      "defect": "icon_no_name",
+      "success": 0.0,
+      "n": 16
+    },
+    {
+      "kind": "button",
+      "defect": "img_no_alt",
+      "success": 0.0,
+      "n": 16
+    },
+    {
+      "kind": "link",
+      "defect": "baseline",
+      "success": 1.0,
+      "n": 8
+    },
+    {
+      "kind": "link",
+      "defect": "duplicate_name",
+      "success": 0.0,
+      "n": 8
+    },
+    {
+      "kind": "link",
+      "defect": "generic_name",
+      "success": 0.0,
+      "n": 8
+    },
+    {
+      "kind": "link",
+      "defect": "img_no_alt",
+      "success": 0.0,
+      "n": 8
+    },
+    {
+      "kind": "link",
+      "defect": "span_not_link",
+      "success": 0.0,
+      "n": 8
+    },
+    {
+      "kind": "textbox",
+      "defect": "baseline",
+      "success": 1.0,
+      "n": 8
+    },
+    {
+      "kind": "textbox",
+      "defect": "label_not_linked",
+      "success": 0.0,
+      "n": 8
+    },
+    {
+      "kind": "textbox",
+      "defect": "no_label",
+      "success": 0.0,
+      "n": 8
+    },
+    {
+      "kind": "textbox",
+      "defect": "placeholder_only",
+      "success": 1.0,
+      "n": 8
+    }
+  ]
+}
