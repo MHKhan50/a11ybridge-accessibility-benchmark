@@ -1,7 +1,0 @@
-run_id,task_id,variant,role,expected_name,locator_count,success,exception_type,exception_message,duration_ms,python_version,platform
-2161ff7a-a4be-4096-ae8f-5958cbeb83b0,button_name,baseline,button,Save report,1,True,,,488.633,3.9.6,macOS-27.0.1-arm64-arm-64bit
-65ca4512-7321-446f-99b2-4731cec5ade2,button_name,defect,button,Save report,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,0.006,3.9.6,macOS-27.0.1-arm64-arm-64bit
-16841c2c-a213-4404-8371-4127828cc2a6,link_name,baseline,link,Download results,1,True,,,32.911,3.9.6,macOS-27.0.1-arm64-arm-64bit
-9bf3125f-5899-4d4a-b635-cfc4fa773d96,link_name,defect,link,Download results,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,0.008,3.9.6,macOS-27.0.1-arm64-arm-64bit
-068700f9-fdd6-4992-ad7d-583d80bb2eef,textbox_name,baseline,textbox,Project title,1,True,,,6.77,3.9.6,macOS-27.0.1-arm64-arm-64bit
-d66e5ea0-c55b-461c-a966-f03bb040d3b2,textbox_name,defect,textbox,Project title,0,False,AssertionError,Expected exactly one matching role/name locator; found 0,0.007,3.9.6,macOS-27.0.1-arm64-arm-64bit

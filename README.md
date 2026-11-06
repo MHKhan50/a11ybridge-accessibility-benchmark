@@ -1,70 +1,52 @@
-# A11yBridge v0.1.0
+# A11yBridge: accessibility defects and small local LLM web agents
 
-**Beyond WCAG Compliance: Measuring How Accessibility Defects Affect Role-and-Name-Based Browser Task Execution**
+**Missing Names, Wrong Clicks: Do Accessibility Defects Make Small Local LLM Web Agents Choose the Wrong Element?**
 
-A small, reproducible **synthetic prototype** for measuring whether selected accessible-name/label defects interfere with deterministic browser tasks that locate controls by ARIA role and accessible name.
+Web agents often read a page through its accessibility tree, the same list of roles and names that a screen reader uses. This repository measures what happens to small local language models acting as web agents when the control they need has an accessibility defect: no name, a generic name, a missing label, or no proper role.
 
-> **Scope warning:** This is not a WCAG conformance tester, accessibility certification tool, assistive-technology simulator, or completed real-world academic study. It uses six hand-authored local HTML fixtures and three narrowly scoped task definitions. Results describe only this harness and its fixtures.
+## Research questions
+1. How often does a small local model choose the right element when the target control has an accessibility defect, compared with the same page without the defect?
+2. When it fails, does it pick a risky look-alike (for example "Delete report" instead of "Save report"), another control, or say the control is not there?
+3. Does the user's language matter: the same task written in English or in Roman Urdu, on an English page?
+4. How does the model compare with a fixed role-and-name script, which fails by design on every renamed control?
 
-## Research question
+## Design
+| Part | Choice |
+|---|---|
+| Pages | 16 tasks on fictional clinic pages (8 buttons, 4 links, 4 text fields) x element-specific defects x 2 layouts = 168 pages (`agent_study/pages.py`). Each page has one target, one risky look-alike (buttons and links) and two neutral controls. |
+| Defects | Buttons: generic name ("Action"), icon with no name, image with no alt text, `div` instead of `button`, a duplicate name in another section. Links: generic name ("Click here"), image with no alt, `span` instead of `a`, duplicate name. Text fields: label not linked, placeholder only, no label. |
+| Observation | Chromium renders each page with Playwright; the model sees the page's ARIA snapshot as numbered lines. The code records which line is the target, the risky look-alike or another control. |
+| Task | One step: reply with the line number to act on, or 0 if nothing fits. English and Roman Urdu instructions. |
+| Models | `qwen2.5:3b`, `llama3.2:3b`, `qwen2.5:7b`, `mistral:7b`, `llama3.1:8b` through Ollama, temperature 0, seed 42: 336 calls each, 1,680 in total. |
+| Outcomes | right element, risky look-alike, other wrong element, said none, invalid reply. |
+| Statistics | Paired differences against the same task and layout without the defect, with bootstrap 95% intervals (2,000 resamples). |
+| Script reference | The exact role-and-name locator from version 0.2.0, computed on every page. |
 
-Do selected accessibility defects cause measurable failures in browser tasks that use role-and-name-based locators, and how do the three implemented defect classes compare in this fixture set?
-
-## Implemented task pairs
-
-| Task | Accessible baseline | Controlled defect | Expected locator |
-|---|---|---|---|
-| Button | Button named “Save report” | Button name changed to “Action” | `get_by_role("button", name="Save report", exact=True)` |
-| Link | Link named “Download results” | Link name changed to “Open item” | `get_by_role("link", name="Download results", exact=True)` |
-| Textbox | Textbox labelled “Project title” | Label `for` no longer matches input `id` | `get_by_role("textbox", name="Project title", exact=True)` |
-
-Each fixture includes a task-specific completion marker. The benchmark records locator count, whether the action completed, exception details, and elapsed time.
-
-## Requirements
-
-- Python 3.9 or later
-- Playwright for Python
-- Chromium installed through Playwright
-
-## Quick start
-
+## Run (MacBook, Ollama open)
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python -m playwright install chromium
-python -m pip install -r requirements-dev.txt
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements-dev.txt && python -m playwright install chromium
 python -m pytest -q
-python run_experiment.py --output-dir results
+caffeinate -i python -m agent_study.run       # about 1 to 2 hours, resumable
+python -m agent_study.analysis                # tables and figure, no model needed
 ```
 
-On macOS, the commands above work in Terminal. If your environment uses `python` rather than `python3`, substitute accordingly.
+## Outputs
+- `agent_study/results/pages.jsonl`: every page with its HTML, numbered tree and line labels.
+- `agent_study/results/agent_runs.jsonl`: every call with the reply, chosen line and outcome.
+- `agent_study/results/tables.md`, `results.json`, `fig_buttons.png`.
 
-## Output files
+## Results
+To be filled in from the run.
 
-The run creates:
+## Limitations
+- Fictional pages written by one person, with one defect at a time; real pages have many defects together.
+- One-step element choice, not a full multi-step agent; the model sees only the accessibility tree, not the screen.
+- Small open models with default quantisation, one answer per page at temperature 0.
+- An agent's success is not evidence that a page is usable for people who rely on assistive technology.
 
-- `results/raw_results.csv` — one row per fixture execution.
-- `results/summary.json` — aggregate counts and success rates by task and variant.
-- `results/run_metadata.json` — run configuration and environment metadata.
+## Earlier version
+Version 0.2.0 ran a fixed exact role-and-name locator on three page pairs (`a11ybridge/`, `run_experiment.py`, `results_v0_2_0_final/`). Its 100% vs 0% result follows from the design, because the defect pages rename the control the locator looks for; it is kept as the script reference above.
 
-Default design: one execution for each of three tasks × two variants (six rows). Increase repetitions with `--repetitions N`. Use `--headless false` to display Chromium while running.
-
-## Reproducibility
-
-The fixture HTML is stored locally in `a11ybridge/fixtures/`; no external website is contacted. Task order and fixture mapping are fixed. Timing is recorded as descriptive telemetry and is not used as a pass/fail threshold. The benchmark does not currently randomize order, model realistic user behaviour, or estimate population-level effects.
-
-## Interpretation
-
-A failure means that the specified exact role/name locator did not resolve to exactly one element or the intended action/completion marker did not succeed in this controlled fixture. It does **not** establish that a person using a screen reader or another assistive technology would necessarily experience the same outcome. A success does **not** prove that a page is accessible.
-
-Use the protocol in `docs/experimental_protocol_v1.md` before extending or reporting results. The data dictionary and dataset card in `data/` describe the generated CSV and its limitations.
-
-## Project status
-
-v0.1.0 is a harness/prototype release. No empirical claims, statistical significance claims, novelty claims, or market-demand claims are made. Conduct a current literature review and a preregistered, broader evaluation before treating this as a research finding.
-
-## License
-
+## Licence
 MIT. See `LICENSE`.
