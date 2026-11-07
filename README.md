@@ -1,6 +1,7 @@
 # A11yBridge: accessibility defects and small local LLM web agents
 
-[![Software DOI](https://img.shields.io/badge/software-10.5281%2Fzenodo.24045414-blue)](https://doi.org/10.5281/zenodo.24045414)
+[![Preprint](https://img.shields.io/badge/preprint-10.5281%2Fzenodo.24045501-blue)](https://doi.org/10.5281/zenodo.24045501)
+[![Software](https://img.shields.io/badge/software-10.5281%2Fzenodo.24045414-blue)](https://doi.org/10.5281/zenodo.24045414)
 
 **Missing Names, Wrong Clicks: Accessibility Defects and Element Choice by Small Local LLM Web Agents**
 
@@ -64,6 +65,19 @@ Pooled over five models and English and Roman Urdu instructions. Unnamed control
 
 ## Earlier version
 Version 0.2.0 ran a fixed exact role-and-name locator on three page pairs (`a11ybridge/`, `run_experiment.py`, `results_v0_2_0_final/`). Its 100% vs 0% result follows from the design, because the defect pages rename the control the locator looks for; it is kept as the script reference above.
+
+## Citation
+```bibtex
+@misc{hussain2026a11ybridge,
+  author    = {Hussain, Muzammal},
+  title     = {Missing Names, Wrong Clicks: Accessibility Defects and Element Choice by Small Local {LLM} Web Agents},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24045501},
+  note      = {Preprint}
+}
+```
+Software: [doi:10.5281/zenodo.24045414](https://doi.org/10.5281/zenodo.24045414); see also [`CITATION.cff`](CITATION.cff).
 
 ## Licence
 MIT. See `LICENSE`.

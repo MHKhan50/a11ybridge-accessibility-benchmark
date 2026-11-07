@@ -17,3 +17,15 @@ keywords:
   - LLM agents
   - local LLMs
   - Roman Urdu
+preferred-citation:
+  type: article
+  title: "Missing Names, Wrong Clicks: Accessibility Defects and Element Choice by Small Local LLM Web Agents"
+  authors:
+    - family-names: Hussain
+      given-names: Muzammal
+      orcid: "https://orcid.org/0009-0001-2570-5686"
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: 10.5281/zenodo.24045501
+  notes: Preprint
