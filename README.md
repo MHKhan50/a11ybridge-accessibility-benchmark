@@ -1,5 +1,7 @@
 # A11yBridge: accessibility defects and small local LLM web agents
 
+[![Software DOI](https://img.shields.io/badge/software-10.5281%2Fzenodo.24045414-blue)](https://doi.org/10.5281/zenodo.24045414)
+
 **Missing Names, Wrong Clicks: Accessibility Defects and Element Choice by Small Local LLM Web Agents**
 
 Web agents often read a page through its accessibility tree, the same list of roles and names that a screen reader uses. This repository measures what happens to small local language models acting as web agents when the control they need has an accessibility defect: no name, a generic name, a missing label, or no proper role.
